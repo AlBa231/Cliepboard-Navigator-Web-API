@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipboardNavigator.WebApi", "ClipboardNavigator.WebApi.csproj", "{D117E498-3154-4681-BBC4-09BBF701DB28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizeFunctionApp", "..\AuthorizeFunctionApp\AuthorizeFunctionApp.csproj", "{9E7AF8DA-F3DE-488E-B91F-7651ADC70754}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFunction", "..\AuthorizationFunction\AuthorizationFunction.csproj", "{2A2DAA47-4005-420C-A436-7D3C0875A64E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D117E498-3154-4681-BBC4-09BBF701DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D117E498-3154-4681-BBC4-09BBF701DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D117E498-3154-4681-BBC4-09BBF701DB28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E7AF8DA-F3DE-488E-B91F-7651ADC70754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E7AF8DA-F3DE-488E-B91F-7651ADC70754}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E7AF8DA-F3DE-488E-B91F-7651ADC70754}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E7AF8DA-F3DE-488E-B91F-7651ADC70754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
