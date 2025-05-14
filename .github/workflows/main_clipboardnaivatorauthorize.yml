@@ -35,7 +35,12 @@ jobs:
           pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           dotnet build --configuration Release --output ./output
           popd
-      
+
+      - name: 'Run Unit Tests'
+        shell: bash
+        run: |
+          dotnet test --logger "trx;LogFileName=test-results.trx"      
+
       - name: Login to Azure
         uses: azure/login@v2
         with:

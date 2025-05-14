@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFunction", "AuthorizationFunction\AuthorizationFunction.csproj", "{2A2DAA47-4005-420C-A436-7D3C0875A64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFunction.UnitTests", "AuthorizationFunction.UnitTests\AuthorizationFunction.UnitTests.csproj", "{4D4EF2A5-1F72-4941-BDAF-470F38A0ECA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2DAA47-4005-420C-A436-7D3C0875A64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4EF2A5-1F72-4941-BDAF-470F38A0ECA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4EF2A5-1F72-4941-BDAF-470F38A0ECA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4EF2A5-1F72-4941-BDAF-470F38A0ECA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4EF2A5-1F72-4941-BDAF-470F38A0ECA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {271EA72D-CA6F-4916-90C0-FC4135BB0106}
+	EndGlobalSection
+EndGlobal
